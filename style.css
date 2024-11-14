@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+  text-shadow: 0.5px 0.5px 0.5px gray;
+}
+body {
+  background-color: #FFFFFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23FFFFFF' width='11' height='11'/%3E%3Crect fill='%23fefefe' x='10' width='11' height='11'/%3E%3Crect fill='%23fdfdfd' y='10' width='11' height='11'/%3E%3Crect fill='%23fcfcfc' x='20' width='11' height='11'/%3E%3Crect fill='%23fbfbfb' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23fafafa' y='20' width='11' height='11'/%3E%3Crect fill='%23f8f8f8' x='30' width='11' height='11'/%3E%3Crect fill='%23f7f7f7' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23f6f6f6' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23f5f5f5' y='30' width='11' height='11'/%3E%3Crect fill='%23f4f4f4' x='40' width='11' height='11'/%3E%3Crect fill='%23f3f3f3' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23f2f2f2' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23f1f1f1' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23f0f0f0' y='40' width='11' height='11'/%3E%3Crect fill='%23efefef' x='50' width='11' height='11'/%3E%3Crect fill='%23eeeeee' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23ededed' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23ebebeb' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23eaeaea' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23e9e9e9' y='50' width='11' height='11'/%3E%3Crect fill='%23e8e8e8' x='60' width='11' height='11'/%3E%3Crect fill='%23e7e7e7' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23e6e6e6' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23e5e5e5' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23e4e4e4' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23e3e3e3' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23e2e2e2' x='70' width='11' height='11'/%3E%3Crect fill='%23e1e1e1' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23e0e0e0' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23dfdfdf' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23dddddd' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23dcdcdc' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23dbdbdb' x='80' width='11' height='11'/%3E%3Crect fill='%23dadada' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23d9d9d9' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23d8d8d8' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23d7d7d7' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23d6d6d6' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23d5d5d5' x='90' width='11' height='11'/%3E%3Crect fill='%23d4d4d4' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23d3d3d3' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23d2d2d2' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23d1d1d1' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23d0d0d0' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23cfcfcf' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23cecece' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23cdcdcd' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23cbcbcb' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23cacaca' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23c9c9c9' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23c8c8c8' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23c7c7c7' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23c6c6c6' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23c5c5c5' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23c4c4c4' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23c3c3c3' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23c2c2c2' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23c1c1c1' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23C0C0C0' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 63px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(254, 255, 253);
+  z-index: 1000;
+  padding: 0 20px;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 550;
+  cursor: pointer;
+  margin-left: -10px;
+}
+span {
+  color: rgb(0, 136, 255);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  margin: 0 40px;
+}
+.media {
+  display: flex;
+  gap: 24px;
+}
+.media a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.759);
+  font-weight: 450;
+  transition: all 0.5s;
+}
+.media a:hover {
+  color: rgb(0, 98, 255);
+  scale: 105%;
+}
+.btn button {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  font-weight: 450;
+  font-size: 14px;
+  background-color: white;
+  border: 1.3px solid rgba(0, 0, 0, 0.538);
+  border-radius: 4px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  box-shadow: inset 3px 3px 6px #f0f0f0, inset -3px -3px 6px #fff;
+  gap: 5px;
+}
+.write {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 45px;
+  font-size: 14px;
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
+  background: linear-gradient(to right, #1cb5e0, #000046);
+  font-weight: 500;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+/* Responsive styles */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.759);
+}
+.menu {
+  display: none;
+  flex-direction: row;
+  background-color: rgba(251, 251, 249, 0.985);
+  position: absolute;
+  top: 63.5px;
+  margin-left: -20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.menu a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.759);
+  margin-left: 20px;
+}
+.menu a:hover {
+  color: rgb(3, 206, 251);
+}
+@media (max-width: 768px) {
+  .media,
+  .btn {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .write {
+    font-size: 12px;
+    padding: 1.8px;
+    text-align: center;
+    height: 8vh;
+  }
+}
+/* Show menu when toggled */
+.menu.show {
+  display: flex;
+}
