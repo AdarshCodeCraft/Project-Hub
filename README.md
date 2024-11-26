@@ -5,3 +5,4 @@
 <p>Live Previews 🌐: Quickly access live demos of your projects with a single click.</p>
 <p>Organized Design 🗂️: Browse through your projects with an intuitive and minimalist interface.</p>
 <p>Tech Stack Tags 🛠️: Identify the tech stack used in each project effortlessly.</p>
+<h3>📸 Screenshots</h3>
