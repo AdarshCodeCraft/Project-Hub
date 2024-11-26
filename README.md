@@ -6,3 +6,4 @@
 <p>Organized Design 🗂️: Browse through your projects with an intuitive and minimalist interface.</p>
 <p>Tech Stack Tags 🛠️: Identify the tech stack used in each project effortlessly.</p>
 <h3>📸 Screenshots</h3>
+<img src="Screenshot 2024-11-26 163322.png" alt="logo"/>
